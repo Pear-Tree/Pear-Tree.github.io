@@ -92,6 +92,22 @@ ol {
 	margin-bottom: 40px;
 }
 
+
+.slide-content:after {
+    position: absolute;
+    content: "";
+    height: calc(100% + 50px);
+    width: 330px;
+    border-top: 150px solid #baff00;
+    border-left: 150px solid #baff00;
+    border-bottom: 90px solid #baff00;
+    top: 0;
+    left: 0;
+    opacity: 0.73;
+}
+
+
+
 .sp-title span {
 	background: #baff00;
 	padding: 0 10px;
@@ -444,15 +460,13 @@ ol {
 .logo-area {
 	float: left;
 	display: inline-block;
-	
+
 	padding-right: 5px;
 
 }
 
 .main-logo{
-	width:250px;
-
-	padding:0px;
+	width:33%;
 }
 
 
@@ -658,16 +672,7 @@ ol {
 }
 
 .slide-content:after {
-	position: absolute;
-	content: "";
-	height: calc(100% + 50px);
-	width: 330px;
-	border-top: 150px solid #baff00;
-	border-left: 150px solid #baff00;
-	border-bottom: 90px solid #baff00;
-	top: 0;
-	left: 0;
-	opacity: 0.73;
+
 }
 
 .slide-content h2 {
@@ -1814,6 +1819,8 @@ ol {
 	}
 }
 
+
+
 /* Tablet :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.logo-area {
@@ -1831,9 +1838,7 @@ ol {
 		line-height: 60px;
 	}
 	.slide-content:after {
-		border-top: 100px solid #baff00;
-		border-left: 100px solid #baff00;
-		border-bottom: 60px solid #baff00;
+
 	}
 	.hero-slider .owl-nav {
 		left: 170px;
@@ -1935,11 +1940,7 @@ ol {
 	.left-bar {
 		width: 70px;
 	}
-	.main-logo{
-		width:50%;
 
-		padding:0px;
-	}
 	.slide-content:after,
 	.hero-right-text,
 	.phone-number {
@@ -2083,11 +2084,7 @@ ol {
 		padding-right: 66px;
 	}
 
-	.main-logo{
-		width:50%;
 
-		padding:0px;
-	}
 	.nav-menu {
 		width: 100%;
 		left: 0;
